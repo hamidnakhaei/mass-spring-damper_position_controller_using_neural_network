@@ -1,5 +1,5 @@
 # Design of a Mass-Spring-Damper System Controller for Position Control Using a Neural Network
-## You can find the full report uploaded in this repository
+## You can find the full report uploaded [here](https://github.com/hamidnakhaei/mass-spring-damper_position_controller_using_neural_network/blob/6d8843d162bebce3ba022722fee219e588ff55a4/Control_NN_Report.pdf) in this repository
 In this project, an attempt is made to control a single degree of freedom mass-spring-damper dynamic system, which was previously modeled using a neural network. The designed controller is also a neural network. All simulations are performed in the MATLAB/Simulink environment. The controller training is generally unsupervised, with neural network weights chosen randomly. However, for time efficiency, an On-Off controller was initially used, and this controller was trained using supervised learning. Subsequently, unsupervised learning began. As a result, the neural network successfully optimized the control of the system.
  ### The Dynamics of the system under study is as follows:
  
