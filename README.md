@@ -12,7 +12,7 @@ $$K = 24 \quad \frac{\mathrm{N}}{\mathrm{m}}; \quad \quad b = 8 \quad \frac{\mat
 ###  Neural Network Used for Modeling the Dynamic Behavior of the System
 ![](https://github.com/hamidnakhaei/mass-spring-damper_position_controller_using_neural_network/blob/a8c9542fa4a62e3d81b1b7934f9f5b694d73ec43/Fig/3.png)
 
-The neural network is able to successfully be trained with a sawtooth wave input and be tested with a square wave input. In this paper, a neural network is used to control the system. The training of the neural network controller is unsupervised, meaning no specific and predetermined data exists as input and desired output for the network to learn from. However, for time-saving and to guide the unsupervised learning process, the neural network was initially trained with an On-Off controller in a supervised manner. Then, the unsupervised learning process started to achieve the ideal controller.
+The neural network is able to successfully be trained with a sawtooth wave input and tested with a square wave input. In this paper, a neural network is used to control the system. The training of the neural network controller is unsupervised, meaning no specific and predetermined data exists as input and desired output for the network to learn from. However, for time-saving and to guide the unsupervised learning process, the neural network was initially trained with an On-Off controller in a supervised manner. Then, the unsupervised learning process started to achieve the ideal controller.
 
 ### Controller Neural Network and the Dynamic Model Neural Network
 ![](https://github.com/hamidnakhaei/mass-spring-damper_position_controller_using_neural_network/blob/a8c9542fa4a62e3d81b1b7934f9f5b694d73ec43/Fig/4.png)
